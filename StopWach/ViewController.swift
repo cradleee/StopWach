@@ -34,14 +34,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func start() {
-        if timer.isValid{
-           //
-          timer.invalidate()
-          //
-          self.hantei()
-        }
-    }
-        
+       
         if !timer.isValid {
             //
             
