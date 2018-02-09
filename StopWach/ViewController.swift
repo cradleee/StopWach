@@ -27,17 +27,13 @@ class ViewController: UIViewController {
     }
 
     @objc func up () {
-        //
         count = count + 0.01
-        //
         label.text = String(format: "%.2f",count)
     }
     
     @IBAction func start() {
        
         if !timer.isValid {
-            //
-            
             timer = Timer.scheduledTimer(timeInterval: 0.01,
                                          target: self,
                                          selector: #selector(self.up),
@@ -49,8 +45,16 @@ class ViewController: UIViewController {
     
     @IBAction func stop() {
         if timer.isValid {
-            //
             timer.invalidate()
+            
+        }
+    }
+    
+    @IBAction func reset() {
+        if timer.isValid{
+            timer.invalidate()
+            count = 0.0
+            label.text = "0.00"
         }
     }
 }
