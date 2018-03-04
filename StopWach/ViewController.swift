@@ -53,9 +53,10 @@ class ViewController: UIViewController {
     @IBAction func reset() {
         if timer.isValid{
             timer.invalidate()
-            count = 0.0
-            label.text = "0.00"
         }
+        
+        count = 0.0
+        label.text = "0.00"
     }
 }
 

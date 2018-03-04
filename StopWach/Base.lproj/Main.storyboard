@@ -51,7 +51,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0w-f9-l4O">
-                                <rect key="frame" x="146" y="487" width="83" height="55"/>
+                                <rect key="frame" x="146" y="492" width="83" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.79373851440407639" green="1" blue="0.98542986104845243" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
@@ -59,7 +59,7 @@
                                     <color key="titleColor" red="0.0" green="0.025698813897821273" blue="0.98726926813471505" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="reset" destination="BYZ-38-t0r" eventType="touchUpInside" id="VZb-tz-ncb"/>
+                                    <action selector="reset" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Hb-iw-dPa"/>
                                 </connections>
                             </button>
                         </subviews>
